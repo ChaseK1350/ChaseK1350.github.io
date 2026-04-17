@@ -17,12 +17,20 @@
         	color: #2c3e50;
     	}
 
-		h1 {
+		.site-header {
     		text-align: center;
-    		font-size: 2.5em;
-    		margin: 10px auto 40px auto;
-    		color: #2c3e50;
-    		letter-spacing: 1px;
+    		padding: 20px 0 10px 0;
+    		margin-bottom: 20px;
+    		background-color: #ffffff;
+    		box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    		border-radius: 10px;
+    		max-width: 900px;
+    		margin-left: auto;
+    		margin-right: auto;
+		}
+
+		.site-header h1 {
+    		margin: 0;
 		}
 
     	section {
@@ -121,7 +129,9 @@
 </head>
 <body>
 
-    <h1>My ePortfolio</h1>
+    <header class="site-header">
+        <h1>My ePortfolio</h1>
+    </header>
 
 	<!-- Professional Self-Assessment -->
     <section id="self-assessment">
